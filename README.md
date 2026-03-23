@@ -24,6 +24,38 @@ Other components include:
 the [libc++ C++ standard library](https://libcxx.llvm.org),
 the [LLD linker](https://lld.llvm.org), and more.
 
+## Getting Started for Beginners
+
+New to LLVM? Here is a suggested learning path:
+
+1. **Understand what LLVM is** – Read the
+   [LLVM Overview](https://llvm.org/docs/index.html) to learn about the
+   project's goals, components, and architecture.
+
+2. **Set up your build environment** – Follow the
+   [Getting Started with LLVM](https://llvm.org/docs/GettingStarted.html)
+   guide to check out the source code and build the project for the first time.
+
+3. **Learn the core concepts** – Work through the
+   [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html) to
+   understand LLVM IR, and read the
+   [Writing an LLVM Pass](https://llvm.org/docs/WritingAnLLVMNewPMPass.html)
+   tutorial for a hands-on introduction.
+
+4. **Explore Clang** – If you are interested in the C/C++ frontend, start with
+   the [Clang Getting Started](https://clang.llvm.org/get_started.html) page.
+
+5. **Find beginner-friendly tasks** – Look for issues labeled
+   `good first issue` on the
+   [GitHub issue tracker](https://github.com/llvm/llvm-project/issues?q=is%3Aopen+label%3A%22good+first+issue%22)
+   or browse the
+   [LLVM beginner resources](https://llvm.org/docs/GettingInvolved.html).
+
+6. **Join the community** – Ask questions on the
+   [LLVM Discourse forums](https://discourse.llvm.org/) or the
+   [Discord chat](https://discord.gg/xS7Z362). The community is welcoming to
+   newcomers of all backgrounds.
+
 ## Getting the Source Code and Building LLVM
 
 Consult the
